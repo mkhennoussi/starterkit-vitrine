@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  /* font-family: Inter, sans-serif; */
+  font-family: "Montserrat", sans-serif;
+}
+
+.grid-auto-rows {
+  grid-auto-rows: 1fr!important;
+}
