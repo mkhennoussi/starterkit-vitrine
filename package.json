@@ -1,5 +1,6 @@
 {
-  "name": "ab-autoecole",
+  "name": "ab-permis",
+  "description": "Découvrez l'auto école qui vous accompagnera pour réussir du premier coup !",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -12,9 +13,11 @@
   "dependencies": {
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "@tailwindcss/ui": "^0.3.0",
-    "nuxt": "^2.13.0"
+    "leaflet": "^1.6.0",
+    "nuxt": "^2.13.0",
+    "vue2-leaflet": "^2.5.2"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^2.0.0"
+    "@nuxtjs/tailwindcss": "^3.2.0"
   }
 }
