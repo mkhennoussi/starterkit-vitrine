@@ -25,6 +25,9 @@ export default {
           "Découvrez l'auto école qui vous accompagnera pour réussir du premier coup !"
       }
     ],
+    htmlAttrs: {
+      lang: "fr"
+    },
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {

@@ -24,3 +24,9 @@ export default {
   props: ['title', 'description', 'price']
 }
 </script>
+
+<style lang="css">
+.footer-2 {
+  color: #ff0000!important;
+}
+</style>
