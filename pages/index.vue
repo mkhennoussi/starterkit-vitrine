@@ -154,13 +154,12 @@
       />
     </svg>
 
-    <h1
-      class="font-bold uppercase text-5xl text-gray-900 m-8 px-2 md:px-0 text-center -mt-8 md:-mt-32"
-    >NOTRE AGENCE</h1>
-    <div class="h-screen/2 mx-4 md:w-2/3 md:mx-auto shadow-lg rounded-3xl overflow-hidden relative">
-      <client-only>
-        <Map></Map>
-      </client-only>
+ 
+    <div class="mt-20 ">
+      <h1 class="font-bold uppercase text-5xl text-gray-900 px-2 md:px-0 text-center">Contactez-nous</h1>
+      <div class="mx-4 md:w-2/3 md:mx-auto shadow-lg rounded-3xl relative">
+        <ContactForm />
+      </div>
     </div>
 
     <svg
@@ -248,7 +247,6 @@ export default {
           description: "Vous avez loupé votre examen ? Ça arrive même aux super héros. Repassez-le tout simplement !",
           price: "45€"
         },
-
       ],
       offersMoto: [
         {
@@ -284,8 +282,8 @@ export default {
           price: "70€"
         },
       ]
-    }
-  }
+    };
+  },
 }
 </script>
 

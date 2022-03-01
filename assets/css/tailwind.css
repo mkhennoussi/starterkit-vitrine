@@ -8,5 +8,17 @@ body {
 }
 
 .grid-auto-rows {
-  grid-auto-rows: 1fr!important;
+  grid-auto-rows: 1fr !important;
+}
+
+.label {
+  @apply block mb-2 text-gray-900;
+}
+
+.input {
+  @apply w-full px-3 py-2  text-gray-900 border border-gray-900 rounded-md;
+}
+
+.input:focus {
+  @apply outline-none ring ring-gray-900 focus:border-gray-900;
 }

@@ -3,7 +3,8 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-  mode: "spa",
+  // mode: "spa",
+  // ssr: true,
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -45,7 +46,7 @@ export default {
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
    */
-  plugins: [{ src: "~plugins/leaflet.js", ssr: false }],
+  // plugins: [{ src: "~plugins/leaflet.js", ssr: false }],
   /*
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
@@ -54,14 +55,14 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [
-    // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    "@nuxtjs/tailwindcss"
-  ],
+  // buildModules: [
+  //   // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
+  //   "@nuxtjs/tailwindcss"
+  // ],
   /*
    ** Nuxt.js modules
    */
-  modules: ["@nuxtjs/pwa"],
+  modules: ["@nuxtjs/pwa", "@nuxtjs/tailwindcss"],
   /*
    ** Build configuration
    ** See https://nuxtjs.org/api/configuration-build/
