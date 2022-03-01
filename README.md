@@ -1,4 +1,4 @@
-# ab-autoecole
+# Starterkit Vitrine
 
 ## Build Setup
 
